@@ -1,0 +1,50 @@
+.title{
+    font-size: 8vw;
+}
+
+.sub-title{
+    font-size: 7vw;
+}
+
+#label-center{
+  margin-left:5%;
+}
+
+.text-block{
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 540px) {
+    .text-block{
+      margin: 0;
+      width: 85%;
+      margin: 8% 0 8% 0;
+    }
+    form{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #label-center{
+      margin-left: 0;
+    }
+    nav{
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    table.info thead {
+      display: none;
+    }
+
+    table.info tr {
+      display: block;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #e8e9eb;
+    }
+    table.info td {
+      display: block;
+    }
+}
