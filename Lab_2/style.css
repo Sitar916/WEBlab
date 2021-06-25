@@ -1,0 +1,105 @@
+.title{
+    font-size: 8vw;
+}
+
+.sub-title{
+    font-size: 7vw;
+}
+
+#label-center{
+  margin-left:5%;
+}
+
+.text-block{
+  margin: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 540px) {
+    .text-block{
+      margin: 0;
+      width: 85%;
+      margin: 8% 0 8% 0;
+    }
+    form{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    #label-center{
+      margin-left: 0;
+    }
+    nav{
+      justify-content: center;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    table.info thead {
+      display: none;
+    }
+
+    table.info tr {
+      display: block;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #e8e9eb;
+    }
+    table.info td {
+      display: block;
+    }
+}
+
+.calculator {
+  width: 320px;
+  height: 480px;
+  margin-bottom: 50px;
+  background: #eee;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.calculatorComplex {
+  width: 320px;
+  height: 520px;
+  margin-bottom: 50px;
+  background: #eee;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2), -2px -2px 3px rgba(0, 0, 0, 0.2);
+}
+
+output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  background: #fff;
+  margin: 10px auto;
+  border-radius: 5px;
+  font-size: 1.4em;
+  font-weight: bold;
+  box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.3),
+    inset -1px -1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.keyboard {
+  height: 440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+button {
+  margin: 0.5em 1em;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+}
